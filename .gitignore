@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environment
+.env
+.env.local
+
+# Models & Artifacts
+*.pt
+*.onnx
+*.engine
+
+# Data output & uploads
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+backend/data/exports/*
+!backend/data/exports/.gitkeep
+backend/data/batch_reports/*
+!backend/data/batch_reports/.gitkeep
+
+# Build artifacts
+frontend/dist/
+frontend/build/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Dataset/
